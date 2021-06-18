@@ -1,0 +1,42 @@
+{
+  "name": "wms",
+  "version": "1.0.0",
+  "description": "webrtc backend server",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "keywords": [
+    "wms"
+  ],
+  "author": "AlexWang",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "bluebird": "^3.5.0",
+    "crypto": "0.0.3",
+    "imc": "^1.1.25",
+    "ip-regex": "^2.1.0",
+    "jsonwebtoken": "^7.4.3",
+    "ms": "^2.0.0",
+    "uuid": "^3.0.1",
+    "uws": "^0.14.1"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:danielwong/wms.git"
+  },
+  "wbp": {
+    "project": "umd",
+    "entries": {
+      "index": "./src/index.js"
+    },
+    "source": "src/",
+    "build": "dist/"
+  }
+}
